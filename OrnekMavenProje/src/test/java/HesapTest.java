@@ -18,5 +18,31 @@ public class HesapTest {
 		int sonuc=fk.fak(10);
 		assertEquals(3628800,sonuc);
 	}
+	@Test
+	public void testCikarma() {
+		hesap h=new hesap();
+	int sonuc =h.cikarma(250, 35);
+		assertEquals(215,sonuc);
+		
+		
+	}
+	@Test
+	public void testCarpma() {
+		hesap h=new hesap();
+		int sonuc =h.carpma(10, 20);
+		assertEquals(200,sonuc);
+		
+		
+	}
+	@Test
+	public void testBolme() {
+		hesap h=new hesap();
+		double sonuc =h.bolme(100, 5);
+		assertEquals(20.00,sonuc,2);
+		
+		
+	}
+	
+	
 
 }
