@@ -18,6 +18,7 @@ public class HesapTest {
 		int sonuc=fk.fak(10);
 		assertEquals(3628800,sonuc);
 	}
+	
 	@Test
 	public void testCikarma() {
 		hesap h=new hesap();
@@ -26,14 +27,7 @@ public class HesapTest {
 		
 		
 	}
-	@Test
-	public void testCikarma2() {
-		hesap h=new hesap();
-	int sonuc =h.cikarma(250, 45);
-		assertEquals(205,sonuc);
-		
-		
-	}
+	
 	@Test
 	public void testCarpma() {
 		hesap h=new hesap();
@@ -50,6 +44,14 @@ public class HesapTest {
 		
 		
 	}
+	@Test
+	public void testFaktoriyeSifir() {
+		hesap h= new hesap();
+		int sonuc=h.faktoriyel(0);
+		assertEquals(1,sonuc);
+	}
+	
+	
 	
 	
 
