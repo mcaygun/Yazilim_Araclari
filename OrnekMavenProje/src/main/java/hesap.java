@@ -12,6 +12,9 @@ public class hesap {
 	public double bolme(double sayi1,double sayi2) {
 		return sayi1/sayi2;
 	}
+	public double bolme2(double sayi1,double sayi2) {
+		return sayi1/sayi2;
+	}
 	public int fak(int sayi) {
 		int sonuc=1;
 		for(int i=1; i<=sayi;i++)
