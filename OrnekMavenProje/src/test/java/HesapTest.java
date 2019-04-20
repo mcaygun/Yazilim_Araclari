@@ -27,6 +27,14 @@ public class HesapTest {
 		
 	}
 	@Test
+	public void testCikarma2() {
+		hesap h=new hesap();
+	int sonuc =h.cikarma(250, 45);
+		assertEquals(205,sonuc);
+		
+		
+	}
+	@Test
 	public void testCarpma() {
 		hesap h=new hesap();
 		int sonuc =h.carpma(10, 20);
