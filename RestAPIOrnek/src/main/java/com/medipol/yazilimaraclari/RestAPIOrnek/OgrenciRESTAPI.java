@@ -13,7 +13,7 @@ static {
 }
 
 
-private static class Ogrenci{
+public static class Ogrenci{
 	private String isim;
 	private int numara;
 	public Ogrenci(String isim,int numara) {
